@@ -44,4 +44,5 @@ Only the yellow signal wire from each servo connects to the servo driver. The se
 All grounds are connected together to create a common ground. This includes the battery negative terminal, both power distribution boards, the buck regulator, the ESP32, the servo driver, and every servo. Sharing a common ground ensures that all control signals have the same voltage reference and allows the servos to respond correctly to the PWM commands.
 
 # code
-The code provided is a simple inverse kinematic solver. Enter the x, y, and z che end effect, along with the values of the leg lengths ( already put in) to get the angle for the servos to rotate. 
+The code provided is a simple inverse kinematic solver. Enter the x, y, and z che end effect, along with the values of the leg lengths ( already put in) to get the angle for the servos to rotate. (this code only shows you the angles, it doesn't have offsets or actual command for arduino.ide, it's purely IK in C
+use the texts in the code to help guide yourself as to what to put where)
