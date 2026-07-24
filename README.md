@@ -27,9 +27,11 @@ as for trhe leg assembly, you must use the servo metal gear and horn and 2 m3 bo
 
 
 # wiring
+<img width="1536" height="1024" alt="wiring" src="https://github.com/user-attachments/assets/133c0132-9111-4939-b8f0-45574828e276" />
 The robot is powered by a 7.4 V (2S) LiPo battery. The battery output first passes through the main power switch, which allows the entire system to be turned on or off.
 
 From the switch, power enters the first power distribution board (PDB1). This board acts as the main power hub. It supplies power to the first group of servos, feeds the second power distribution board (PDB2) for the remaining servos, and provides battery voltage to the 5 V buck regulator.( this is mainly because I need high gauge wire and I couldn't find a power distribution board that's big enough)
+
 
 The power distribution boards are responsible only for distributing the high-current servo power. Each servo receives its red (+) and black (GND) wires directly from a PDB. This keeps the high current away from the control electronics.
 
