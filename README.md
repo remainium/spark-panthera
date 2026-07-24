@@ -27,10 +27,19 @@ as for trhe leg assembly, you must use the servo metal gear and horn and 2 m3 bo
 
 
 # wiring
-As for the wiring
-The servos and electronics will be powered by the same power supply (parallel-connected 7.4V 6000mAh batteries)
-Only the yello/communication wire of the servos will go to the servo driver.
-While the rest of the servo power cables go to an independent power distribution board for smooth and safe power transmission. The battery will also go through a step-down regulator to feed the microcontroller as well as the servo driver, both independently. There will also be a lot of connectors used in place of soldering for safety. And please connect a switch capable of handling the voltage and amperage directly after the battery junction.
+The robot is powered by a 7.4 V (2S) LiPo battery. The battery output first passes through the main power switch, which allows the entire system to be turned on or off.
+
+From the switch, power enters the first power distribution board (PDB1). This board acts as the main power hub. It supplies power to the first group of servos, feeds the second power distribution board (PDB2) for the remaining servos, and provides battery voltage to the 5 V buck regulator.( this is mainly because I need high gauge wire and I couldn't find a power distribution board that's big enough)
+
+The power distribution boards are responsible only for distributing the high-current servo power. Each servo receives its red (+) and black (GND) wires directly from a PDB. This keeps the high current away from the control electronics.
+
+The 5 V buck regulator converts the battery voltage to a stable 5 V supply. This regulated voltage powers the ESP32 and the servo driver.
+
+The ESP32 runs the robot's control software and generates movement commands. These commands are sent to the servo driver, which outputs the PWM control signals for each servo.
+
+Only the yellow signal wire from each servo connects to the servo driver. The servo driver controls the servos through these signal wires, while the servos receive their operating power directly from the power distribution boards.
+
+All grounds are connected together to create a common ground. This includes the battery negative terminal, both power distribution boards, the buck regulator, the ESP32, the servo driver, and every servo. Sharing a common ground ensures that all control signals have the same voltage reference and allows the servos to respond correctly to the PWM commands.
 
 # code
 The code provided is a simple inverse kinematic solver. Enter the x, y, and z che end effect, along with the values of the leg lengths ( already put in) to get the angle for the servos to rotate.
