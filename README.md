@@ -46,3 +46,11 @@ All grounds are connected together to create a common ground. This includes the 
 # code
 The code provided is a simple inverse kinematic solver. Enter the x, y, and z che end effect, along with the values of the leg lengths ( already put in) to get the angle for the servos to rotate. (this code only shows you the angles, it doesn't have offsets or actual command for arduino.ide, it's purely IK in C
 use the texts in the code to help guide yourself as to what to put where)
+
+
+| Name of Component | Cost of Component | Amount | Source |
+| :--- | :--- | :--- | :--- |
+| DS5160 high torque servo | $20.75 | 3 | [robu.in](https://robu.in) |
+| 5010 360kv bldc | $18.67 | 1 | [robu.in](https://robu.in) |
+| odesc foc controller | $30.23 | 3 | [made-in-china.com](https://made-in-china.com) |
+| 6000mAh 7.4v battery | $38.38 | 1 | [robu.in](https://robu.in) |
