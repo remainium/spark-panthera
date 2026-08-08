@@ -51,6 +51,6 @@ use the texts in the code to help guide yourself as to what to put where)
 | Name of Component | Cost of Component | Amount | Source |
 | :--- | :--- | :--- | :--- |
 | DS5160 high torque servo | $20.75 | 3 | [robu.in](https://robu.in) |
-| 5010 360kv bldc | $18.67 | 1 | [robu.in](https://robu.in) |
+| 5010 360kv bldc | $18.67 | 1 | [robu.in]( https://www.google.com/aclk?sa=L&ai=DChsSEwiX7sfNiuyVAxWRwzwCHd68GxwYACICCAEQBhoCc2Y&co=1&ase=2&gclid=CjwKCAjwmozTBhAeEiwAkEGZzhNkuGv6U-7RcLXoTgDmkIY7M1sDAk6ColVKjd22z0USijEBi2fOThoCoY8QAvD_BwE&cid=CAAS9QHkaEnMHUENYZ_uDdq2Dhyj2C4-Ofyoz1gm7yGuvDTCDI8yMaKEvpOwmXQAmrewJEreOl6vblK_KbM4vKd9mE9LEdIxT-C73Fiis56Sic48A-Y4b4qLkmoaXWHCjme9HXiTuJJPG5Ti03z7kprzy_Iu814ps9UzSJowvoz05DuzBMNJX5xYrtZnn6Wni0ud6Se5IyWqQk8pOuW56G48NPwQ-io2AAOXc5u1UdExyqSe6zHdQgl90JiIqYMyQvniYsnYFc0Zxn6TD5AQgmgKDe9rPjVJoRQwbOl_s4z8usFwdU8X62pc8J26EOMBn5xuBP5tDF7dKw&cce=2&category=acrcp_v1_32&sig=AOD64_0-W-Cb4IQBT5QncbvjuvaEMhUJnQ&ctype=5&q=&nis=4&ved=2ahUKEwihucPNiuyVAxXWWHADHcAFC2cQ5bgDKAB6BAgHEAs&adurl=) |
 | odesc foc controller | $30.23 | 3 | [made-in-china.com](https://made-in-china.com) |
 | 6000mAh 7.4v battery | $38.38 | 1 | [robu.in](https://robu.in) |
